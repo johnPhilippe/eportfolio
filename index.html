@@ -8,7 +8,7 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>John Philippe Conanan</title>
 </head>
 <body>
   <nav [class.bg_color]="bg_variable">
@@ -17,31 +17,31 @@
     </div>
     <ul class="nav-links" [class.menuClass]="menu_variable">
       <li>
-        <a href="#"><span [class.color_change]="color_variable">HOME</span></a>
+        <a href="#"><span >HOME</span></a>
       </li>
       <li>
         <a href="#about"
-          ><span [class.color_change]="color_variable">ABOUT</span></a
+          ><span >ABOUT</span></a
         >
       </li>
       <li>
         <a href="#education"
-          ><span [class.color_change]="color_variable">EDUCATION</span></a
+          ><span >EDUCATION</span></a
         >
       </li>
       <li>
         <a href="#projects"
-          ><span [class.color_change]="color_variable">PROJECTS</span></a
+          ><span >PROJECTS</span></a
         >
       </li>
       <li>
         <a href="#skills"
-          ><span [class.color_change]="color_variable">SKILLS</span></a
+          ><span >SKILLS</span></a
         >
       </li>
     </ul>
     <div class="button">
-      <button type="button">CONTACT</button>
+      <a href="#social">CONTACT</a>
     </div>
   
     <div class="menu" (click)="openMenu()">
@@ -183,8 +183,8 @@
   </div>
 </div>
 
-<section class="social">
-  <div class="social">
+<section id="social" >
+  <div class="social" id="social">
     <a href="https://www.facebook.com/johnphilippe.conanan" target="_blank"><i class="fa fa-facebook"></i></a>
     <a href="https://www.twitter.com/Pnilippe" target="_blank"><i class="fa fa-twitter"></i></a>
     <a href="https://www.instagram.com/pnilippeconan/" target="_blank"><i class="fa fa-instagram"></i></a>
